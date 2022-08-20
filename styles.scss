@@ -1,0 +1,135 @@
+$primary-color: #fff;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'New York Extra Large';
+  font-style: normal;
+}
+
+.body {
+  background-color: $primary-color;
+}
+
+.navbar {
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.16);
+  padding: 0 1rem;
+  background-color: $primary-color;
+  position: absolute;
+  left: 100px;
+
+  &-nav {
+    position: absolute;
+    right: 200px;
+    font-family: 'New York Small';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+.tittle {
+  font-family: 'SF Mono';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+  text-align: center;
+}
+
+.short-line {
+  height: 2px;
+  background-color: black;
+  border: 2px solid #000000;
+ 
+}
+
+.main-content {
+  font-family: 'New York Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 170%;
+  width: 640px;
+  margin: auto;
+}
+
+.eyes {
+  width: 90px;
+  margin: auto;
+}
+
+.double-eyes {
+  display: flex;
+  flex-direction: row;
+}
+
+.double-eyes:before,
+.double-eyes:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid #000;
+  margin: auto;
+}
+
+.black-box {
+  width: 1440px;
+  height: 464px;
+  background: #000000;
+}
+
+.task-job {
+  font-family: SF Pro Text;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.picture-img {
+  width: 290.91px;
+  height: 27.3px;
+  margin: 90px 0px 50px;
+}
+
+.lorem-word {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+  text-align: center;
+  width: 488px;
+  margin: auto;
+}
+.text-left {
+  text-align: left;
+}
+.words {
+  font-family: 'SF Pro Display';
+  width: 262px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 120%;
+  /* or 26px */
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width:768px) {
+  div.disappeared {
+    display: none;
+  }
+}
+
+@media  (min-width:769px) {
+  .card {
+    width: 640px;
+    height: 313px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+  }
+}
+
+
+
